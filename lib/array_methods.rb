@@ -1,23 +1,23 @@
 def using_include(array, element)
-  puts array.include?(element)
+  return array.include?(element)
 end
 
 def using_sort(array)
-  puts array.sort
+  return array.sort
 end
 
 def using_reverse(array)
-  puts array.reverse
+  return array.reverse
 end
 
 def using_first(array)
-  puts array.first
+  return array.first
 end
 
 def using_last(array)
-  puts array.last
+  return array.last
 end
 
 def using_size(array)
-  puts array.size
+  return array.size
 end
